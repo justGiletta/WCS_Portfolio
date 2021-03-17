@@ -1,0 +1,43 @@
+/*  COMMUN */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/*  CONTACT   by Eddy */
+fieldset p {
+    margin-bottom: 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+fieldset {
+    border: 0px solid rgb(223, 221, 221);
+    width: 50%;
+    margin: 50px auto;
+    padding: 50px;
+    border-radius: 15px;
+    background-color: rgb(223, 221, 221);
+}
+
+input[type=text], textarea {
+    align-content: center;
+    width: 100%;
+    padding: 3px;
+    border: 0px solid rgb(223, 221, 221);
+    border-radius: 10px;
+    padding-left: 10px;
+} 
+
+input[type=submit] {
+    width: 30%;
+    padding: 3px;
+    margin: 5px;
+    border: 0px solid rgb(223, 221, 221);
+    border-radius: 10px;
+    margin-left: 70%;
+}
+/* fin */
