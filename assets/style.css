@@ -44,7 +44,7 @@ header {
     padding: 10px 20px 10px 10px;
 }
 
-#burger{
+#burger {
     position: fixed;
     right: 0;
     top: 0;
@@ -55,9 +55,9 @@ header {
     border-radius: 0% 0% 0% 100%;
     transition: 1s;
     cursor: pointer;
-  }
+}
   
-  #quit{
+#quit {
     position: fixed;
     top: 0;
     color: black;
@@ -65,22 +65,45 @@ header {
     padding: 16px;
     display: none;
     cursor: pointer;
-  }
+}
   
-  #links{
+#links {
     display: none;
     flex-direction: column;
     width: 100vw;
     height: 50vh;
     padding: 25vh 0;
     justify-content: space-around;
-  }
+}
   
-  #links a{
+#links a {
     text-align: center;
     text-decoration: none;
     color: black;
     font-size: 2em;
     font-family: 'Comfortaa';
     z-index: 10;
-  }
+}
+
+
+@media (width <= 500px) {
+      
+    .title_header h1 {
+        font-size: 1.2em;
+        padding-top: 10px;
+    }
+    
+    .title_header h2 {
+        font-size: 0.8em;
+    }
+
+    #links {
+        height: 20vh;
+    }
+      
+    #links a {
+        font-size: 1em;
+    }
+}
+
+/* Fin partie CSS Header - navbar PAULINE */

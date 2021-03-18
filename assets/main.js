@@ -18,3 +18,5 @@ function quitFunction(){
     quit.style.display = 'none';
     header.style.visibility = 'visible';
 };
+
+/* Fin partie Header nav - burger menu - responsive */

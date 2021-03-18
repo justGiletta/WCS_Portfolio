@@ -9,13 +9,13 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Unica+One&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <script src="../assets/main.js" defer></script>
+        <!-- <script src="../assets/main.js" defer></script> -->
     </head>
     <body>
         <header>
             <div id="bloc_title_header">
                 <div id="logo">
-                    <img src="../assets/images/pinguLogo.png" alt="logo_pingu"/>
+                    <a href="../index.php"><img src="../assets/images/pinguLogo.png" alt="logo_pingu"/></a>
                 </div>
                 <div class="title_header">
                     <h1>Linus Torvald</h1>
