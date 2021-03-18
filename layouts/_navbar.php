@@ -7,7 +7,9 @@
         <title>Linus Torvald</title>
         <link rel="stylesheet" href="../assets/style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Unica+One&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Unica+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="../assets/main.js" defer></script>
     </head>
     <body>
         <header>
@@ -21,10 +23,12 @@
                 </div>
             </div>
             <nav>
-                <ul>
-                    <li><a href="../index.php">Accueil</a></li>
-                    <li><a href="../projet.php">Projets</a></li>
-                    <li><a href="../contact.php">Contact</a></li>
-                </ul>
+                <i id="burger" class="material-icons" onclick="burgerMenu()">menu</i>
+                <i id="quit" class="material-icons" onclick="quitFunction()">clear</i>
+                    <div id="links">
+                        <a href="../index.php">Accueil</a>
+                        <a href="../projet.php">Projets</a>
+                        <a href="../contact.php">Contact</a>
+                    </div>
             </nav>
         </header>

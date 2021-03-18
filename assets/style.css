@@ -2,7 +2,7 @@
 
 header {
     background-color: rgb(30, 30, 30);
-    border-radius: 0px 0px 16px 16px;
+    border-radius: 0px 0px 0px 16px;
     display: flex;
     justify-content: space-between;
 }
@@ -43,7 +43,7 @@ body {
     padding: 10px 20px 10px 10px;
 }
 
-nav {
+/* nav {
     justify-content: right;
     margin: 0px 16px 0px 0px;
     padding: 0px;
@@ -58,4 +58,45 @@ nav a {
     font-family: 'Comfortaa', cursive;
     color: white;
     text-decoration: none;
-}
+} */
+
+#burger{
+    position: fixed;
+    right: 0;
+    top: 0;
+    color: black;
+    background: white;
+    font-size: 34px;
+    padding: 16px 16px 32px 32px;
+    border-radius: 0% 0% 0% 100%;
+    transition: 1s;
+    cursor: pointer;
+  }
+  
+  #quit{
+    position: fixed;
+    top: 0;
+    color: black;
+    font-size: 32px;
+    padding: 16px;
+    display: none;
+    cursor: pointer;
+  }
+  
+  #links{
+    display: none;
+    flex-direction: column;
+    width: 100vw;
+    height: 50vh;
+    padding: 25vh 0;
+    justify-content: space-around;
+  }
+  
+  #links a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+    font-family: 'Comfortaa';
+    z-index: 10;
+  }
