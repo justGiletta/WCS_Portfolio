@@ -1,7 +1,3 @@
-<html>
-<body>
-<link rel="stylesheet" href="../assets/style.css">
-
 <footer>
 
     <section class="footer_section">
@@ -15,6 +11,8 @@
 
 </footer>
 
+<script src="../assets/main.js"></script>
+
 </body>
-<link rel="stylesheet" href="../assets/main.js">
+
 </html>
