@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Linus Torvald</title>
         <link rel="stylesheet" href="../assets/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Unica+One&display=swap" rel="stylesheet"> 
     </head>
     <body>
         <header>
@@ -26,5 +28,3 @@
                 </ul>
             </nav>
         </header>
-    </body>
-</html>

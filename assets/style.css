@@ -2,9 +2,15 @@
 
 header {
     background-color: rgb(30, 30, 30);
-    border-radius: 16px;
+    border-radius: 0px 0px 16px 16px;
     display: flex;
     justify-content: space-between;
+}
+
+body {
+    margin: 0px;
+    position: fixed;
+    width: 100%;
 }
 
 .bloc_title_header {
@@ -15,6 +21,7 @@ header {
 .title_header {
     line-height: 0.6em;
     color: white;
+    font-family: 'Unica One', cursive;
 }
 
 .title_header h1 {
@@ -48,6 +55,7 @@ nav ul {
 
 nav a {
     font-size: 0.7em;
+    font-family: 'Comfortaa', cursive;
     color: white;
     text-decoration: none;
 }
