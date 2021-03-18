@@ -15,7 +15,7 @@
         <header>
             <div id="bloc_title_header">
                 <div id="logo">
-                    <a href="../index.php"><img src="../assets/images/pinguLogo.png" alt="logo_pingu"/></a>
+                    <a href="../index.php"><img src="../assets/images/LogoPingu.gif" alt="logo_pingu"/></a>
                 </div>
                 <div class="title_header">
                     <h1>Linus Torvald</h1>
