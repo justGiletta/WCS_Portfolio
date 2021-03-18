@@ -1,0 +1,36 @@
+.images {
+
+    width: 30%;
+}
+
+.boxprojet {
+
+    display:flex;
+    align-items: center;
+}
+
+
+h2 {
+
+    text-align: center;
+}
+
+p {
+
+   color: red;
+   margin-left: 10px;
+}
+
+#section3 {
+
+background-color: yellow;
+
+}
+
+.bloc_projet {
+
+    border-radius: 2px;
+    border-style: solid;
+    margin: 5px;
+
+}
