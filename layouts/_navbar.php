@@ -13,7 +13,7 @@
     </head>
     <body>
         <header>
-            <div class="bloc_title_header">
+            <div id="bloc_title_header">
                 <div id="logo">
                     <img src="../assets/images/pinguLogo.png" alt="logo_pingu"/>
                 </div>
