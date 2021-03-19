@@ -6,6 +6,20 @@
     box-sizing: border-box;
 }
 
+h1,
+h2,
+p {
+    font-family: 'Comfortaa', cursive;
+}
+
+p {
+    font-size: 13px;
+}
+
+h2 {
+    font-si ze: 16px;
+}
+
 .bodyPresCard {
     padding: 30px;
 }
@@ -41,7 +55,7 @@
 }
 
 .linusPres-text p {
-    padding-top: 30px;
+    padding-top: 15px;
     padding-right: 10px;
 }
 
@@ -51,33 +65,32 @@
     margin: 10px auto;
 }
 
-.pictolinux-img {
-    z-index: 2;
+#picto {
+    float: right;
+    align-items: flex-start;
+    height: 60px;
+    width: 60px;
 }
 
 .bodyProjectsCard {
     margin: 0 auto;
     display: flex;
     flex-direction: row;
-    /*flex-wrap: wrap;*/
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
-    align-content: stretch;
     max-height: 800px;
     max-width: 900px;
 }
 
 .projectCard {
     background-color: lightgray;
-    margin: 30pxauto;
     border-radius: 20px;
     height: 200px;
     width: 30%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
-    align-content: stretch;
 }
 
 .projectCard-title {
@@ -89,14 +102,17 @@
     padding: 10px;
 }
 
-.project-img img {
-    width: 90%;
+.project-img {
     height: 90%;
-    margin: 5px;
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    margin: 0 auto;
 }
 
-.project-img {
-    align-items: stretch;
+.project-img img {
+    width: 80%;
+    height: 80%;
 }
 
 
