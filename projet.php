@@ -3,6 +3,11 @@
 <body>
         
 <!-- Bloc 1 / Projet 1 -->
+<div class="bloc_projet">
+<iframe class ="center" width="420" height="315"
+src="https://www.youtube.com/embed/S5S9LIT-hdc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</iframe>
+</div>
 
 <div class="bloc_projet" id = "section1" >
 
@@ -19,8 +24,8 @@ Torvalds began the development of the Linux kernel on MINIX and applications wri
 
 <img    class="images" 
         id = "firstboximage1"
-        src="https://www.leparisien.fr/resizer/WmqtmYWDu3FZdXy82jzKoXvgUg4=/932x582/arc-anglerfish-eu-central-1-prod-leparisien.s3.amazonaws.com/public/5CEWJB2TW53SBBOYNLOA3MSUWU.jpg" width=800px heigth=600px        alt="Linux_img"> 
-<img class ="images" id= "firstboximage2" src= "assets/linuxPicto.png" width=800px heigth=600px alt="Linux_Picto">
+        src="https://www.leparisien.fr/resizer/WmqtmYWDu3FZdXy82jzKoXvgUg4=/932x582/arc-anglerfish-eu-central-1-prod-leparisien.s3.amazonaws.com/public/5CEWJB2TW53SBBOYNLOA3MSUWU.jpg" width=960px heigth=600px        alt="Linux_img"> 
+<!-- <img class ="images" id= "firstboximage2" src= "assets/linuxPicto.png" width=800px heigth=600px alt="Linux_Picto"> -->
 </div>
 
 </div>
@@ -63,8 +68,8 @@ You can tag dives and filter a dive list based on criteria including tags, locat
 
 <div class="boxprojet">
 
-<img class="images" id="imageScuba" src="https://subsurface-divelog.org/wp-content/uploads/2015/10/subsurface-icon1.png" alt="Subsurface_img">
-<img class="images" id="imageLinus" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Linus_in_SCUBA_gear.jpg/450px-Linus_in_SCUBA_gear.jpg" alt="Linus_Scuba_img" >
+<img class="images" id="imageScuba" src="https://subsurface-divelog.org/wp-content/uploads/2015/10/subsurface-icon1.png" Width=800px heigth=600px alt="Subsurface_img">
+<!-- <img class="images" id="imageLinus" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Linus_in_SCUBA_gear.jpg/450px-Linus_in_SCUBA_gear.jpg" alt="Linus_Scuba_img" > -->
 
 </div>
 
