@@ -87,14 +87,13 @@ header {
     text-align: center;
     text-decoration: none;
     color: black;
-    font-size: 2em;This branch has conflicts that must be resolved
-Use the web editor or the to resolve conflicts. 
+    font-size: 2em;
     font-family: 'Comfortaa';
     z-index: 10;
 }
 
 
-@media (width <= 500px) {
+@media (width : 500px) {
       
     .title_header h1 {
         font-size: 1.2em;
@@ -153,9 +152,7 @@ Use the web editor or the to resolve conflicts.
   
   /* ****************** */
  
-  #footer_section .icon a {This branch has conflicts that must be resolved
-Use the web editor or the to resolve confThis branch has conflicts that must be resolved
-Use the web editor or the to resolve conflicts. licts. 
+  #footer_section .icon a {
     display: block;
     position: relative;
   }
@@ -221,8 +218,7 @@ Use the web editor or the to resolve conflicts. licts.
     transform: translate(15px, -15px);
     opacity: .8;
   }
-  .icon a:hover span:nth-child(3) {This branch has conflicts that must be resolved
-Use the web editor or the to resolve conflicts. 
+  .icon a:hover span:nth-child(3) {
     transform: translate(10px, -10px);
     opacity: .6;
   }
