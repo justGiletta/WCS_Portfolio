@@ -326,9 +326,15 @@ input[type=submit] {
   max-width: 50%;
   padding: 0 5px;
 }
-@media (max-width : 750px) {
+@media (max-width : 600px) {
   .error-div {
     font-size: x-small;
+  } 
+}
+
+@media (max-width : 350px) {
+  .error-div {
+    font-size: xx-small;
   } 
 }
 .arrow-left {
