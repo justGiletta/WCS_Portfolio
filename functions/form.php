@@ -21,7 +21,7 @@ empty($_GET['email']) ? $errors = $errors."emailError="."Please enter your  emai
 
 //Si l'email est rempli on check le format avec les fonctions prédéfinies
 if (!empty($_GET['email'])) {
-    !filter_var($_GET['email'], FILTER_VALIDATE_EMAIL) ? $errors = $errors."emailError="."Please enter a valid email&" : $completedFields = $completedFields.'email='.$_GET['email'].'&';
+    !filter_var($_GET['email'], FILTER_VALIDATE_EMAIL) ? $errors = $errors."emailError="."Please enter a valid email format&" : $completedFields = $completedFields.'email='.$_GET['email'].'&';
 };//fonction et arguments prédéfinis dans le langage
 
 //On check s'il y a un message

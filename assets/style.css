@@ -9,7 +9,6 @@
 
 body {
     margin: 0px;
-    position: fixed;
     width: 100%;
 }
 
@@ -93,7 +92,7 @@ header {
 }
 
 
-@media (width <= 500px) {
+@media (width : 500px) {
       
     .title_header h1 {
         font-size: 1.2em;
@@ -113,12 +112,17 @@ header {
     }
 }
 
+
 /* Fin partie CSS Header - navbar PAULINE */
 
  /* ********* DEBUT DU FOOTER (DEV : COLIN) ******** */
 
  footer{
+    position: absolute;
+    top: 100;
+    width: 100%;
     text-align: center;
+    margin-top: 50px;
  
   }  
   #footer_section {
@@ -132,9 +136,9 @@ header {
     text-align: center;
     height: 110px;
 	  margin: auto;
-	  border-radius: 18px;
+	  border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
 	  width: 100%;
-	  
   }
   
   #footer_section .icon {
@@ -276,7 +280,7 @@ fieldset p {
 }
 fieldset {
     border: 0px solid rgb(223, 221, 221);
-    width: 50%;
+    width: 80%;
     margin: 50px auto;
     padding: 50px;
     border-radius: 15px;
@@ -287,35 +291,64 @@ input[type=text], textarea {
     align-content: center;
     width: 100%;
     padding: 3px;
-    border: 0 solid rgb(223, 221, 221);
+    border: 1px solid black;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     padding-left: 10px;
 } 
 
 input[type=submit] {
-    width: 30%;
+    width: 40%;
+    height: 50px;
     padding: 3px;
     margin: 5px;
-    border: 0px solid rgb(223, 221, 221);
+    border: 1px solid black;
     border-radius: 10px;
-    margin-left: 70%;
+    margin-left: 50%;
 }
 /* fin */
 
 /* CONTACT by Hugo */
-.error-div {
-    color: black;
-    background: linear-gradient(to right, rgb(254, 239, 179),rgb(223, 221, 221));
-    border-bottom-left-radius: 15px;
-
-    margin-top: 0px;
-    margin-bottom: -15px;
-    margin-right: 5%;
-    height: 22px;
-    width: 100%;
-    padding-left: 5px;
+.input-error {
+  position: relative;
 }
+
+.error-div {
+  position: absolute;
+  font-size: small bold;
+  top: -10px;
+  right: 0;
+  color: black;
+  background:rgb(224, 75, 30);
+  border: 1px solid ;
+  height: 35px;
+  width: auto;
+  max-width: 50%;
+  padding: 0 5px;
+}
+@media (max-width : 750px) {
+  .error-div {
+    font-size: x-small;
+  } 
+}
+.arrow-left {
+  position: absolute;
+  top:34px;
+  left: -1px;
+  height : 0;
+  width : 0;
+  border-top : 10px solid;
+  border-left : 10px solid transparent;
+}
+.arrow-right {
+  position: absolute;
+  top:34px;
+  left:9px;
+  height : 0;
+  width : 0;
+  border-bottom : 10px solid transparent;
+  border-left : 10px solid;
+ }
 
 textarea.required {
     margin-bottom: -5px;
@@ -323,8 +356,11 @@ textarea.required {
 }
 
 .required {
-    border: 2px solid rgb(254, 239, 179) !important;
+    border: 2px solid rgb(224, 75, 30) !important;
     
+}
+.required::placeholder {
+  color: rgb(224, 75, 30);
 }
 /* Fade in des messages d'erreurs */
 .error-div {
@@ -438,6 +474,7 @@ textarea.required {
     top: 52px;
     left: 62px;
   }
+
   @keyframes lds-default {
     0%, 20%, 80%, 100% {
       transform: scale(1);
