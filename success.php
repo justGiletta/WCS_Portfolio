@@ -33,4 +33,4 @@ require 'layouts/_navbar.php'
 <?php
 require 'layouts/_footer.php';
 
-header('refresh:5;url=index.php');//Renvoie sur l'index après 7 secondes
+header('refresh:5;url=index.php');//Renvoie sur l'index après 5 secondes
