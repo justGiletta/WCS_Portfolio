@@ -1,79 +1,84 @@
-<link rel="stylesheet" type="text/css" href="/assets/style.css"/>
+<link rel="stylesheet" type="text/css" href="/assets/style.css" />
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-        
-<!-- Bloc 1 / Projet 1 -->
-<div class="bloc_projet">
-<iframe class ="center" width="420" height="315"
-src="https://www.youtube.com/embed/S5S9LIT-hdc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</iframe>
-</div>
 
-<div class="bloc_projet" id = "section1" >
+    <!-- Bloc Video -->
+    <div class="bloc_projet" id='videoProjet'>
+        <h1> My Projects </h1>
 
-<div class="textprojet">
-<h2>Projet 1 : Linux</h2>
-<p> Linux is a family of open-source Unix-like operating systems based on the Linux Kernel, an operating system kernel first released on septembre 17, 1991. Linux is typically packaged in a linux distrubution.
+        <iframe class="videos" width="420" height="315" src="https://www.youtube.com/embed/S5S9LIT-hdc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </iframe>
+    </div>
+    <!-- Bloc 1 / Projet 1 -->
+    <div class="bloc_projet" id="section1">
 
-In 1991, while attending the University of Helsinki, Torvalds became curious about operating systems.[48] Frustrated by the licensing of MINIX, which at the time limited it to educational use only,[47] he began to work on his own operating system kernel, which eventually became the Linux kernel.
+        <div class="textbox">
 
-Torvalds began the development of the Linux kernel on MINIX and applications written for MINIX were also used on Linux. Later, Linux matured and further Linux kernel development took place on Linux systems.[49] GNU applications also replaced all MINIX components, because it was advantageous to use the freely available code from the GNU Project with the fledgling operating system; code licensed under the GNU GPL can be reused in other computer programs as long as they also are released under the same or a compatible license. Torvalds initiated a switch from his original license, which prohibited commercial redistribution, to the GNU GPL.[50] Developers worked to integrate GNU components with the Linux kernel, making a fully functional and free operating system.[51] </p>
-</div>
+            <h2>Linux</h2>
 
-<div class="boxprojet">
+            <p> 
+                Linux is a family of open-source Unix-like operating systems based on the Linux Kernel, an operating system kernel first released on septembre 17, 1991. Linux is typically packaged in a linux distrubution.
 
-<img    class="images" 
-        id = "firstboximage1"
-        src="https://www.leparisien.fr/resizer/WmqtmYWDu3FZdXy82jzKoXvgUg4=/932x582/arc-anglerfish-eu-central-1-prod-leparisien.s3.amazonaws.com/public/5CEWJB2TW53SBBOYNLOA3MSUWU.jpg" width=960px heigth=600px        alt="Linux_img"> 
-<!-- <img class ="images" id= "firstboximage2" src= "assets/linuxPicto.png" width=800px heigth=600px alt="Linux_Picto"> -->
-</div>
+                In 1991, while attending the University of Helsinki, Torvalds became curious about operating systems.[48] Frustrated by the licensing of MINIX, which at the time limited it to educational use only,[47] he began to work on his own operating system kernel, which eventually became the Linux kernel.
 
-</div>
+            </p>
+        </div>
+        <div class="imagebox">
+            <a href="https://www.linux.org/" target=_blank>
 
-<!-- Bloc 2  / Projet 2 -->
+                <img class="images" id="firstboximage" src="https://www.leparisien.fr/resizer/WmqtmYWDu3FZdXy82jzKoXvgUg4=/932x582/arc-anglerfish-eu-central-1-prod-leparisien.s3.amazonaws.com/public/5CEWJB2TW53SBBOYNLOA3MSUWU.jpg" width=960px heigth=600px alt="Linux_img">
 
-<div class="bloc_projet" id = "section2"> 
+            </a>
+        </div>
 
-<div class="textprojet">
-<h2>Projet 2 : GIT</h2>    
-<p> it is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
+    </div>
 
-Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.
-</p>
-</div>
+    <!-- Bloc 2  / Projet 2 -->
 
-<div class="boxprojet">
-    
+    <div class="bloc_projet" id="section2">
 
-<img    class="images"
-        id="secondboximage"
-        src="https://images-ext-1.discordapp.net/external/RGdVilbfJ7MgbBhb9QFkDBFiYbPmX8BaB9ObMcjBsAA/https/upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1280px-Git-logo.svg.png?width=960&height=401" 
-        alt="Git_img">
-</div>
+        <div class="textbox">
+            <h2>GIT</h2>
+            <p> 
+                Linux is a family of open-source Unix-like operating systems based on the Linux Kernel, an operating system kernel first released on septembre 17, 1991. Linux is typically packaged in a linux distrubution.
 
-</div>
+                In 1991, while attending the University of Helsinki, Torvalds became curious about operating systems.[48] Frustrated by the licensing of MINIX, which at the time limited it to educational use only,[47] he began to work on his own operating system kernel, which eventually became the Linux kernel.
+            </p>
+        </div>
 
-<!-- Bloc 3 / Projet 3-->
+        <div class="imagebox">
+            <a href="https://git-scm.com/" target=_blank>
 
-<div class="bloc_projet" id = "section3">
+                <img class="images" id="secondboximage" src="https://images-ext-1.discordapp.net/external/RGdVilbfJ7MgbBhb9QFkDBFiYbPmX8BaB9ObMcjBsAA/https/upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1280px-Git-logo.svg.png?width=960&height=401" alt="Git_img">
+            </a>
+        </div>
 
-<div class="textprojet">
-<h2>Projet 3 : Subsurface</h2>
-<p>
-Subsurface can plan and track single- and multi-tank dives using air, Nitrox or TriMix. It allows tracking of dive locations including GPS coordinates (which can also conveniently be entered using a map interface), logging of equipment used and names of other divers, and lets users rate dives and provide additional notes.
+    </div>
 
-You can tag dives and filter a dive list based on criteria including tags, locations and people with whom you were diving. You can group the dive list into trips, and edit multiple dives at the same time, making it easy to support a large number of dives.</p>
+    <!-- Bloc 3 / Projet 3-->
 
-</div>
+    <div class="bloc_projet" id="section3">
 
-<div class="boxprojet">
+        <div class="textbox">
+            <h2>Subsurface</h2>
+            <p>
+                Linux is a family of open-source Unix-like operating systems based on the Linux Kernel, an operating system kernel first released on septembre 17, 1991. Linux is typically packaged in a linux distrubution.
 
-<img class="images" id="imageScuba" src="https://subsurface-divelog.org/wp-content/uploads/2015/10/subsurface-icon1.png" Width=800px heigth=600px alt="Subsurface_img">
-<!-- <img class="images" id="imageLinus" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Linus_in_SCUBA_gear.jpg/450px-Linus_in_SCUBA_gear.jpg" alt="Linus_Scuba_img" > -->
+                In 1991, while attending the University of Helsinki, Torvalds became curious about operating systems.[48] Frustrated by the licensing of MINIX, which at the time limited it to educational use only,[47] he began to work on his own operating system kernel, which eventually became the Linux kernel.</p>
 
-</div>
+        </div>
 
-</div> 
+        <div class="imagebox">
+            <a href="https://subsurface-divelog.org/" target=_blank>
+                <img class="images" id="imageScuba" src="https://subsurface-divelog.org/wp-content/uploads/2015/10/subsurface-icon1.png" Width=800px heigth=600px alt="Subsurface_img">
+                <!-- pic removed <img class="images" id="imageLinus" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Linus_in_SCUBA_gear.jpg/450px-Linus_in_SCUBA_gear.jpg" alt="Linus_Scuba_img" > -->
+            </a>
+        </div>
+
+    </div>
 
 </body>
 
