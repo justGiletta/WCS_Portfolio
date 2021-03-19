@@ -6,6 +6,14 @@
     box-sizing: border-box;
 }
 
+.body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 12fr 1fr;
+    gap: 1px 0px;
+    grid-template-areas: "." "." ".";
+}
+
 h1,
 h2,
 p {
@@ -16,9 +24,8 @@ p {
     font-size: 13px;
 }
 
-h2 {
-    font-si ze: 16px;
-}
+
+/* Présentation linus */
 
 .bodyPresCard {
     padding: 30px;
@@ -59,24 +66,24 @@ h2 {
     padding-right: 10px;
 }
 
+
+/* Projets */
+
+.projects {
+    padding: 30px;
+    margin-top: 200px;
+}
+
 .projectsCard-title {
     max-height: 800px;
     max-width: 900px;
-    margin: 10px auto;
-}
-
-#picto {
-    float: right;
-    align-items: flex-start;
-    height: 60px;
-    width: 60px;
+    margin: 0px auto;
 }
 
 .bodyProjectsCard {
-    margin: 0 auto;
+    margin: 10px auto;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     max-height: 800px;
@@ -91,6 +98,7 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin: 0;
 }
 
 .projectCard-title {
@@ -102,17 +110,44 @@ h2 {
     padding: 10px;
 }
 
+h2 {
+    font-size: 16px;
+}
+
 .project-img {
-    height: 90%;
-    width: 100%;
-    padding: 20px;
+    padding: 5px;
+    display: flex;
     justify-content: center;
     margin: 0 auto;
+}
+
+#img1 {
+    margin: 10px auto;
+    height: 90%;
+    width: 100%;
+}
+
+#img2 {
+    margin: 10px auto;
+    height: 60%;
+    width: 100%;
+}
+
+#img3 {
+    margin: 10px auto;
+    height: 90%;
+    width: 90%;
 }
 
 .project-img img {
     width: 80%;
     height: 80%;
+}
+
+.projectCard-title img {
+    float: right;
+    height: 60px;
+    width: 60px;
 }
 
 
