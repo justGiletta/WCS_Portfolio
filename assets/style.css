@@ -1,18 +1,24 @@
-.images {
 
-    width: 30%;
+.bloc_projet {
+
+    display: inline-flex;
 }
 
 .boxprojet {
 
-    display:flex;
-    align-items: center;
+display: flex;
+width: 100%;
+justify-content: center;
+align-items: center;
+overflow: hidden;
 }
 
+.textprojet {}
 
 h2 {
 
     text-align: center;
+
 }
 
 p {
@@ -21,16 +27,40 @@ p {
    margin-left: 10px;
 }
 
-#section3 {
-
-background-color: yellow;
-
-}
-
 .bloc_projet {
 
     border-radius: 2px;
     border-style: solid;
-    margin: 5px;
+    margin: 2%;
+    background-color: lightgrey;
 
 }
+
+#imageScuba {
+
+    width: 50%;
+    float: left;
+    margin-top: 10%;
+}
+
+#imageLinus {
+
+    width: 50%;
+    float: right;
+}
+
+
+#firstboximage {
+    flex-shrink: 0;
+    width: 100%;
+}
+
+#secondboximage {
+
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
