@@ -1,8 +1,5 @@
 <!-- /* ********* DEBUT DU FOOTER (DEV : COLIN) ******** */ -->
 
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css">
-
-
   <footer> 
 
     <div id='footer_section'>

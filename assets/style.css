@@ -4,6 +4,7 @@ body {
     margin: 0px;
     position: fixed;
     width: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -22,11 +23,12 @@ header {
 .title_header {
     line-height: 0.6em;
     color: white;
-    font-family: 'Unica One', cursive;
+    font-family: 'Poppins', sans-serif;
 }
 
 .title_header h1 {
     font-size: 1.5em;
+    font-weight: normal;
 }
 
 .title_header h2 {
@@ -43,78 +45,113 @@ header {
     height: auto;
     padding: 10px 20px 10px 10px;
 }
-
-#burger {
-    position: fixed;
-    right: 0;
-    top: 0;
-    color: black;
-    background: white;
-    font-size: 34px;
-    padding: 16px 16px 32px 32px;
-    border-radius: 0% 0% 0% 100%;
-    transition: 1s;
-    cursor: pointer;
-}
-  
-#quit {
-    position: fixed;
-    top: 0;
-    color: black;
-    font-size: 32px;
-    padding: 16px;
-    display: none;
-    cursor: pointer;
-}
   
 #links {
-    display: none;
-    flex-direction: column;
-    width: 100vw;
-    height: 50vh;
-    padding: 25vh 0;
-    justify-content: space-around;
+    list-style-type: none;
+    display: flex;
 }
-  
+
 #links a {
-    text-align: center;
     text-decoration: none;
+    line-height: 1.5em;
+    padding-right: 50px;
     color: black;
-    font-size: 2em;This branch has conflicts that must be resolved
-Use the web editor or the to resolve conflicts. 
-    font-family: 'Comfortaa';
-    z-index: 10;
+    font-size: 1.2em;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+#pullDown {
+  display: none;
+}
+
+#headerMenu {
+  width: 412px;
+  height: 0;
+  -moz-transvwition: all 300ms ease-in;
+  -webkit-transition: all 300ms ease-in;
+  transition: all 300ms ease-in;
+  overflow: hidden;
+  background: rgb(50 50 50);
+  -moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+  background: white;
+}
+
+#pullDown:checked ~ #headerMenu {
+  height: 80px;
+}
+
+#headerMenu p {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  line-height: 16px;
+  font-size: 16px;
+  margin-top: 30px;
+  text-shadow: 1px 1px 1px #d6a000;
+}
+
+#pullDown ~ #pullDownLabel {
+  background: white;
+  width: 80px;
+  height: 100px;
+  position: absolute;
+  top: -10px;
+  right: 1%;
+  cursor: pointer;
+  margin-left: 40px;
+  -moz-transition: all 300ms ease-in;
+  -webkit-transition: all 300ms ease-in;
+  transition: all 300ms ease-in;
+  border-radius: 0px 0px 15px 15px;
+   -moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+}
+
+#pullDown ~ #pullDownLabel:hover {
+  height: 110px;
 }
 
 
-@media (width <= 500px) {
-      
-    .title_header h1 {
-        font-size: 1.2em;
-        padding-top: 10px;
-    }
-    
-    .title_header h2 {
-        font-size: 0.8em;
-    }
-
-    #links {
-        height: 20vh;
-    }
-      
-    #links a {
-        font-size: 1em;
-    }
+#pullDown:checked ~ #pullDownLabel {
+  top: 50px;
 }
 
-/* Fin partie CSS Header - navbar PAULINE */
+#pullDownLabel i {
+  position: absolute;
+  top: 45px;
+  left: 23px;
+  font-size: 36px;
+  line-height: 36px;
+  color: #ff305A;
+  text-shadow: 1px 1px 1px #ff0000;
+}
 
- /* ********* DEBUT DU FOOTER (DEV : COLIN) ******** */
+#pullDownLabel p {
+  position: absolute;
+  bottom: 15px;
+  left: 14px;
+  font-size: 12px;
+  line-height: 12px;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #d6a000;
+}
+
+/* ---------- Fin partie CSS Header - navbar PAULINE ---------- */
+
+/* ********* DEBUT DU FOOTER (DEV : COLIN) ******** */
 
  footer{
     text-align: center;
- 
   }  
+
   #footer_section {
     display: inline-flex;
     align-items: center;
@@ -146,12 +183,11 @@ Use the web editor or the to resolve conflicts.
   
   /* ****************** */
  
-  #footer_section .icon a {This branch has conflicts that must be resolved
-Use the web editor or the to resolve confThis branch has conflicts that must be resolved
-Use the web editor or the to resolve conflicts. licts. 
+  #footer_section .icon a { 
     display: block;
     position: relative;
   }
+
   #footer_section .icon a::after {
     content: '';
     position: absolute;
@@ -214,8 +250,7 @@ Use the web editor or the to resolve conflicts. licts.
     transform: translate(15px, -15px);
     opacity: .8;
   }
-  .icon a:hover span:nth-child(3) {This branch has conflicts that must be resolved
-Use the web editor or the to resolve conflicts. 
+  .icon a:hover span:nth-child(3) { 
     transform: translate(10px, -10px);
     opacity: .6;
   }
@@ -263,5 +298,99 @@ Use the web editor or the to resolve conflicts.
     
   } 
 
-  
  /* ********* FIN DU FOOTER (DEV : COLIN) ******** */
+
+ /* ---------- DEBUT DE LA PARTIE MEDIA QUERIES RESPONSIVE HEADER PAULINE ---------- */
+
+ @media screen and (min-width: 200px) and (max-width: 700px) {
+      
+  .title_header h1 {
+      font-size: 1em;
+      padding-top: 5px;
+  }
+  
+  .title_header h2 {
+      font-size: 0.8em;
+  }
+
+  #pullDown {
+    display: none;
+  }
+  
+  #headerMenu {
+    width: 412px;
+    height: 0;
+    -moz-transvwition: all 300ms ease-in;
+    -webkit-transition: all 300ms ease-in;
+    transition: all 300ms ease-in;
+    overflow: hidden;
+    background: rgb(50 50 50);
+    -moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+    background: white;
+  }
+  
+  #pullDown:checked ~ #headerMenu {
+    height: 80px;
+  }
+  
+  #headerMenu p {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    line-height: 16px;
+    font-size: 16px;
+    margin-top: 30px;
+    text-shadow: 1px 1px 1px #d6a000;
+  }
+  
+  #pullDown ~ #pullDownLabel {
+    background: white;
+    width: 80px;
+    height: 100px;
+    position: absolute;
+    top: -10px;
+    right: 1%;
+    cursor: pointer;
+    margin-left: 40px;
+    -moz-transition: all 300ms ease-in;
+    -webkit-transition: all 300ms ease-in;
+    transition: all 300ms ease-in;
+    border-radius: 0px 0px 15px 15px;
+     -moz-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+    -webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
+  }
+  
+  #pullDown ~ #pullDownLabel:hover {
+    height: 110px;
+  }
+  
+  
+  #pullDown:checked ~ #pullDownLabel {
+    top: 50px;
+  }
+  
+  #pullDownLabel i {
+    position: absolute;
+    top: 45px;
+    left: 23px;
+    font-size: 36px;
+    line-height: 36px;
+    color: #ff305A;
+    text-shadow: 1px 1px 1px #ff0000;
+  }
+  
+  #pullDownLabel p {
+    position: absolute;
+    bottom: 15px;
+    left: 14px;
+    font-size: 12px;
+    line-height: 12px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #d6a000;
+  }
+}

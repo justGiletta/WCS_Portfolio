@@ -7,9 +7,9 @@
         <title>Linus Torvald</title>
         <link rel="stylesheet" href="../assets/style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Unica+One&display=swap" rel="stylesheet">    
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400display=swap" rel="stylesheet">     
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <!-- <script src="../assets/main.js" defer></script> -->
+        <link href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -18,17 +18,18 @@
                     <a href="../index.php"><img src="../assets/images/pinguLogo.png" alt="logo_pingu"/></a>
                 </div>
                 <div class="title_header">
-                    <h1>Linus Torvald</h1>
+                    <h1 id="title_header">Linus Torvald</h1>
                     <h2>Portfolio</h2>
                 </div>
             </div>
-            <nav>
-                <i id="burger" class="material-icons" onclick="burgerMenu()">menu</i>
-                <i id="quit" class="material-icons" onclick="quitFunction()">clear</i>
-                    <div id="links">
-                        <a href="../index.php">Accueil</a>
-                        <a href="../projet.php">Projets</a>
-                        <a href="../contact.php">Contact</a>
-                    </div>
-            </nav>
+
+            <input type="checkbox" id="pullDown"/>
+                <div id="headerMenu">
+                    <ul id="links">
+                        <li><a href="../index.php" id="home"><i class="">Accueil</i></a></li>
+                        <li><a href="../projet.php" id="projet"><i class="">Projets</i></a></li>
+                        <li><a href="../contact.php" id="contact"><i class="">Contact</i></a></li>
+                    </ul>
+                </div>
+            <label id="pullDownLabel" for="pullDown"><i class="material-icons">menu</i></label>
         </header>
