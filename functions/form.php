@@ -1,44 +1,28 @@
 <?php
 
-$errors = '';
-$completedFields = '';
+$errors = $suggest = $data = [];
 
-//On check si l'utilisateur a remplie le prénom
-//Si oui on le conserve pour le laisser dans la boite de saisie
-//Si non on rajoute un message d'erreur
+empty($_REQUEST['email']) ? $errors['email'] = "emailError=Required" : false;
 
-//OPTIONNEL
 
-//empty($_GET['firstName']) ? $errors = $errors."firstNameError="."Please enter your first name&" : $completedFields = $completedFields.'firstName='.$_GET['firstName'].'&';
-
-//OPTIONNEL
-
-//Idem nom de famille
-//empty($_GET['famName']) ? $errors = $errors."famNameError="."Please enter your familly name&" : $completedFields = $completedFields.'famName='.$_GET['famName'].'&';
-
-//Idem email mais pas de conservation
-empty($_GET['email']) ? $errors = $errors."emailError="."Please enter your  email&" : false;
-
-//Si l'email est rempli on check le format avec les fonctions prédéfinies
-if (!empty($_GET['email'])) {
-    !filter_var($_GET['email'], FILTER_VALIDATE_EMAIL) ? $errors = $errors."emailError="."Please enter a valid email format&" : $completedFields = $completedFields.'email='.$_GET['email'].'&';
+if (!empty($_REQUEST['email'])) {
+    !filter_var($_REQUEST['email'], FILTER_VALIDATE_EMAIL) ? $errors['email'] = "emailError=Invalid format" : $data['email'] = 'email='.trim(htmlspecialchars($_REQUEST['email']));
 };//fonction et arguments prédéfinis dans le langage
 
 //On check s'il y a un message
-empty($_GET['message']) ? $errors = $errors."messageError="."Please enter a message&" : $completedFields = $completedFields.'message='.$_GET['message'].'&';
+empty($_REQUEST['message']) ? $errors['message'] = "messageError=Required" : $data['message'] = 'message='.trim(htmlspecialchars($_REQUEST['message']));
+
+empty($_REQUEST['firstName']) ? $suggest['firstNameSuggest'] = 'firstNameSuggest=Advised for better experience' : $data['firstName'] = 'firstName='.trim(htmlspecialchars($_REQUEST['firstName'])) ;
+empty($_REQUEST['famName']) ? $suggest['famNameSuggest'] = 'famNameSuggest=Advised for better experience' : $data['famName'] = 'famName='.trim(htmlspecialchars($_REQUEST['famName']));
 
 //S'il existe au moins une erreur on l'affiche (ordre d'écriture html = ordre d'écriture php)
 if (!empty($errors)) {
-    isset($_GET['firstName']) ? $completedFields = $completedFields.'firstName='.$_GET['firstName'].'&' : false;
-    isset($_GET['famName']) ? $completedFields = $completedFields.'famName='.$_GET['famName'].'&' : false;
-    header('Location: ../contact.php?'.$errors.$completedFields);
+    header('Location: ../contact.php?'.implode('&', $errors).'&'.implode('&', $suggest).'&'.implode('&', $data));
 };
 
 //Si tout les voyants sont verts on renvoie sur une page pour dire que le msg a été envoyé
 if (empty($errors)) {
-    isset($_GET['firstName']) ? $completedFields = $completedFields.'firstName='.$_GET['firstName'].'&' : false;
-    isset($_GET['famName']) ? $completedFields = $completedFields.'famName='.$_GET['famName'].'&' : false;
-    header('Location: ../success.php?'.$completedFields);
+    header('Location: ../success.php?'.implode('&', $data));
 }
 
 

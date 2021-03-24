@@ -27,7 +27,7 @@
         <p class="p-projet">
             Linux is a family of open-source Unix-like operating systems based on the Linux Kernel, an operating system kernel first released on septembre 17, 1991. Linux is typically packaged in a linux distrubution.
 
-            In 1991, while attending the University of Helsinki, Torvalds became curious about operating systems.[48] Frustrated by the licensing of MINIX, which at the time limited it to educational use only,[47] he began to work on his own operating system kernel, which eventually became the Linux kernel.
+            In 1991, while attending the University of Helsinki, Torvalds became curious about operating systems. Frustrated by the licensing of MINIX, he began to work on his own operating system kernel, which eventually became the Linux kernel.
 
         </p>
     </div>
@@ -48,9 +48,9 @@
     <div class="textbox">
         <h2 class="h2-projet">GIT</h2>
         <p class="p-projet">
-            Linux is a family of open-source Unix-like operating systems based on the Linux Kernel, an operating system kernel first released on septembre 17, 1991. Linux is typically packaged in a linux distrubution.
+            Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
-            In 1991, while attending the University of Helsinki, Torvalds became curious about operating systems.[48] Frustrated by the licensing of MINIX, which at the time limited it to educational use only,[47] he began to work on his own operating system kernel, which eventually became the Linux kernel.
+            Git is easy to learn and has a tiny footprint with lightning fast performance. It outclasses SCM tools like Subversion, CVS, Perforce, and ClearCase with features like cheap local branching, convenient staging areas, and multiple workflows.
         </p>
     </div>
 
@@ -70,17 +70,16 @@
     <div class="textbox">
         <h2 class="h2-projet">Subsurface</h2>
         <p class="p-projet">
-            Linux is a family of open-source Unix-like operating systems based on the Linux Kernel, an operating system kernel first released on septembre 17, 1991. Linux is typically packaged in a linux distrubution.
+            Subsurface is an open source divelog program for recreational, tech, and free-divers. Subsurface can plan and track single- and multi-tank dives using air, Nitrox or TriMix.
 
-            In 1991, while attending the University of Helsinki, Torvalds became curious about operating systems.[48] Frustrated by the licensing of MINIX, which at the time limited it to educational use only,[47] he began to work on his own operating system kernel, which eventually became the Linux kernel.</p>
+            It allows tracking of dive locations including GPS coordinates (which can also conveniently be entered using a map interface), logging of equipment used and names of other divers, and lets users rate dives and provide additional notes.</p>
 
     </div>
 
     <div class="imagebox">
         <a href="https://subsurface-divelog.org/" target=_blank>
             <img class="images" id="imageScuba" src="https://subsurface-divelog.org/wp-content/uploads/2015/10/subsurface-icon1.png" Width=800px heigth=600px alt="Subsurface_img">
-            <!-- pic removed <img class="images" id="imageLinus" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Linus_in_SCUBA_gear.jpg/450px-Linus_in_SCUBA_gear.jpg" alt="Linus_Scuba_img" > -->
-        </a>
+
     </div>
 </div>
 </div>
