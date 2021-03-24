@@ -1,10 +1,3 @@
-/*  COMMUN */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 /* PAULINE - partie Header _navbar.php */
 
 body {
@@ -155,8 +148,104 @@ a:hover {
 
 /* Fin partie CSS Header - navbar PAULINE */
 
+/* Page Projet Wissam */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comfortaa";
+    font-weight: 400;
+}
 
-/* ---------- Fin partie CSS Header - navbar PAULINE ---------- */
+body {
+    background-color: black;
+}
+
+.bloc_projet {
+    background-color: lightgrey;
+    margin: 30px;
+    padding: 0px;
+    border-radius:20px;
+    max-height: 800px;
+    max-width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textbox {
+    margin: 0;
+    padding: 20px;
+    max-width: 40%;
+    border-radius: 20px;
+    background-color: grey;
+
+}
+
+.images {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 60%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.imagebox img {
+    max-width: 60%;
+}
+
+#firstboximage {
+    max-width: 80%;
+}
+
+#imageScuba {
+    max-width: 50%;
+}
+
+h2 {
+    text-align: left;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+.videos {
+    background-color: gray;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    max-height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#videoProjet {
+    flex-direction: column;
+}
+
+h1 {
+    padding: 30px;
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+p {
+    line-height: 1.2;
+}
+
+
+/* Fin Page Projet Wissam */
+
 
 /* ********* DEBUT DU FOOTER (DEV : COLIN) ******** */
 
@@ -231,6 +320,10 @@ a:hover {
     transition: transform .3s;
     min-width: 57px;
     margin: auto 7px; 
+Conflicting files
+assets/main.js
+assets/style.css
+
   }
   
 /* rotation  */
