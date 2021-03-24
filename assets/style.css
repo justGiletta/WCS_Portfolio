@@ -144,8 +144,6 @@ a:hover {
   text-transform: uppercase;
   text-shadow: 1px 1px 1px #d6a000;
 }
-
-
 /* Fin partie CSS Header - navbar PAULINE */
 
 /* Page Projet Wissam */
@@ -158,7 +156,7 @@ a:hover {
 }
 
 body {
-    background-color: black;
+    background-color: white;
 }
 
 .bloc_projet {
@@ -243,7 +241,6 @@ p {
     line-height: 1.2;
 }
 
-
 /* Fin Page Projet Wissam */
 
 
@@ -320,9 +317,6 @@ p {
     transition: transform .3s;
     min-width: 57px;
     margin: auto 7px; 
-Conflicting files
-assets/main.js
-assets/style.css
 
   }
   
@@ -727,3 +721,4 @@ textarea.required {
 /* fin animation success */
 
 /* fin Hugo */
+

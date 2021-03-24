@@ -1,3 +1,4 @@
+<?php include 'layouts/_navbar.php'?>
 <link rel="stylesheet" type="text/css" href="/assets/style.css" />
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
 
@@ -81,5 +82,5 @@
     </div>
 
 </body>
-
+<?php include 'layouts/_footer.php'?>
 </html>

@@ -1,5 +1,4 @@
 /* PAULINE - partie Header nav - burger menu - responsive */
-
 function changeHeader() {
     titleHeader = document.getElementById('title_header');
     homeHeader = document.getElementById('home');
@@ -17,7 +16,6 @@ function changeHeader() {
         } 
     }
 };
-
 window.addEventListener('resize', changeHeader);
 
 /* PAULINE Fin partie Header nav - burger menu - responsive */
@@ -28,7 +26,7 @@ window.addEventListener('resize', changeHeader);
     $(document).ready(function() {
         $('img.images').click(function() {
             window.location.href = firstboximage1 + 'https://git-scm.com/';
-        });
+        })};
     }); 
 </script>
 
