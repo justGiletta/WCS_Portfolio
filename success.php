@@ -11,7 +11,7 @@ require 'layouts/_navbar.php'
 ?>
     <div class="successfull">
         <?php 
-            echo "<p>Thank you for your message <b>$name</b> <b>$famName</b>.</p>";
+            echo "<p>Thank you for your message<b>$name</b> <b>$famName</b></p>";
             echo "<p>An answer will be sent to your address: <b>$email</b></p><br>";
             echo "<p>You will be redirected in a few moments ... </p>"
         ?>

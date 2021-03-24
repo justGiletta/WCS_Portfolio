@@ -13,8 +13,8 @@ if (!empty($_REQUEST['email'])) {
 //On check s'il y a un message
 empty($_REQUEST['message']) ? $errors['message'] = "messageError=Required" : $data['message'] = 'message='.trim(htmlspecialchars($_REQUEST['message']));
 
-empty($_REQUEST['firstName']) ? $errors['firstNameSuggest'] = 'firstNameSuggest=Advised for better experience' : $data['firstName'] = 'firstName='.trim(htmlspecialchars($_REQUEST['firstName'])) ;
-empty($_REQUEST['famName']) ? $errors['famNameSuggest'] = 'famNameSuggest=Advised for better experience' : $data['famName'] = 'famName='.trim(htmlspecialchars($_REQUEST['famName']));
+empty($_REQUEST['firstName']) ? $suggest['firstNameSuggest'] = 'firstNameSuggest=Advised for better experience' : $data['firstName'] = 'firstName='.trim(htmlspecialchars($_REQUEST['firstName'])) ;
+empty($_REQUEST['famName']) ? $suggest['famNameSuggest'] = 'famNameSuggest=Advised for better experience' : $data['famName'] = 'famName='.trim(htmlspecialchars($_REQUEST['famName']));
 
 //S'il existe au moins une erreur on l'affiche (ordre d'écriture html = ordre d'écriture php)
 if (!empty($errors)) {
