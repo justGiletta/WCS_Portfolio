@@ -32,7 +32,7 @@
         </div>
 
         <div class="projectCard">
-        <a href="projet.php/#section1">
+        <a href="projet.php/#section2">
         <div class="projectCard-title">
             <div class="title"><h2>Git</h2></div>
             <div class="picto"><img src="/assets/images/PictoPinguNB.png" width=50px heigth=50px alt="Git Logo"/></img></div>
