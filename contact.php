@@ -63,5 +63,4 @@ include 'layouts/_navbar.php';
     </form>    
 </fieldset>
 <?php 
-
 include 'layouts/_footer.php'?>

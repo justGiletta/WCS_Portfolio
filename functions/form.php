@@ -2,7 +2,6 @@
 
 $errors = $suggest = $data = [];
 
-
 empty($_REQUEST['email']) ? $errors['email'] = "emailError=Required" : false;
 
 
