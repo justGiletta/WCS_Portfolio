@@ -1,10 +1,10 @@
 <?php
-
+session_start();
 header('refresh:5;url=index.php'); //Renvoie sur l'index après 5 secondes
 
-isset($_GET['firstName'])? $name = $_GET['firstName'] : $name = '';
-isset($_GET['famName'])? $famName = $_GET['famName'] : $famName = '';
-$email = $_REQUEST['email'];
+isset($_SESSION['firstName']) ? $name = $_SESSION['firstName'] : $name = '';
+isset($_SESSION['famName']) ? $famName = $_SESSION['famName'] : $famName = '';
+$email = $_SESSION['email'];
 
 require 'layouts/_navbar.php'
 
@@ -34,4 +34,4 @@ require 'layouts/_navbar.php'
 </fieldset>
 <?php
 require 'layouts/_footer.php';
-
+unset($_SESSION['message']);
