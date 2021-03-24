@@ -11,7 +11,7 @@ header {
     border-radius: 0px 0px 0px 16px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 
 #bloc_title_header {
@@ -61,6 +61,10 @@ header {
 
 a:hover {
   font-weight: bold;
+}
+
+i {
+  font-style: normal;
 }
 
 #pullDown {
@@ -147,17 +151,6 @@ a:hover {
 /* Fin partie CSS Header - navbar PAULINE */
 
 /* Page Projet Wissam */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Comfortaa";
-    font-weight: 400;
-}
-
-body {
-    background-color: white;
-}
 
 .bloc_projet {
     background-color: lightgrey;
@@ -204,11 +197,16 @@ body {
 #imageScuba {
     max-width: 50%;
 }
+#h1-projet {
+  padding: 30px;
+  font-weight: 700;
+}
 
-h2 {
-    text-align: left;
-    padding-bottom: 10px;
-    font-size: 20px;
+.h2-projet {
+  text-align: left;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .videos {
@@ -228,21 +226,11 @@ h2 {
     flex-direction: column;
 }
 
-h1 {
-    padding: 30px;
-    font-weight: 700;
-}
-
-h2 {
-    font-weight: 700;
-}
-
-p {
+.p-projet {
     line-height: 1.2;
 }
 
 /* Fin Page Projet Wissam */
-
 
 /* ********* DEBUT DU FOOTER (DEV : COLIN) ******** */
 
@@ -417,12 +405,26 @@ p {
       font-size: 0.8em;
   }
 
+  #links {
+    list-style-type: none;
+    display: flex;
+  }
+
+  #links a {
+    text-decoration: none;
+    font-style: normal;
+    line-height: 1.5em;
+    padding-right: 15px;
+    color: black;
+    font-size: 1.2em;
+  }
+
   #pullDown {
     display: none;
   }
   
   #headerMenu {
-    width: 412px;
+    width: 200px;
     height: 0;
     -moz-transvwition: all 300ms ease-in;
     -webkit-transition: all 300ms ease-in;
@@ -433,26 +435,17 @@ p {
     -webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
     box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
     background: white;
+    border-radius: 0px 0px 0px 16px;
   }
   
   #pullDown:checked ~ #headerMenu {
     height: 80px;
   }
   
-  #headerMenu p {
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    line-height: 16px;
-    font-size: 16px;
-    margin-top: 30px;
-    text-shadow: 1px 1px 1px #d6a000;
-  }
-  
   #pullDown ~ #pullDownLabel {
     background: white;
     width: 80px;
-    height: 100px;
+    height: 80px;
     position: absolute;
     top: -10px;
     right: 1%;
@@ -468,7 +461,7 @@ p {
   }
   
   #pullDown ~ #pullDownLabel:hover {
-    height: 110px;
+    height: 80px;
   }
   
   
@@ -478,24 +471,12 @@ p {
   
   #pullDownLabel i {
     position: absolute;
-    top: 45px;
+    top: 25px;
     left: 23px;
     font-size: 36px;
     line-height: 36px;
     color: #ff305A;
     text-shadow: 1px 1px 1px #ff0000;
-  }
-  
-  #pullDownLabel p {
-    position: absolute;
-    bottom: 15px;
-    left: 14px;
-    font-size: 12px;
-    line-height: 12px;
-    color: white;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 1px #d6a000;
   }
 }
 
@@ -718,6 +699,4 @@ textarea.required {
   }
 
 /* fin animation success */
-
 /* fin Hugo */
-

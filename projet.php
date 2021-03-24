@@ -8,7 +8,7 @@
 
     <!-- Bloc Video -->
     <div class="bloc_projet" id='videoProjet'>
-        <h1> My Projects </h1>
+        <h1 id="h1-projet"> My Projects </h1>
 
         <iframe class="videos" width="420" height="315" src="https://www.youtube.com/embed/S5S9LIT-hdc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </iframe>
@@ -18,9 +18,9 @@
 
         <div class="textbox">
 
-            <h2>Linux</h2>
+            <h2 class="h2-projet">Linux</h2>
 
-            <p> 
+            <p class="p-projet"> 
                 Linux is a family of open-source Unix-like operating systems based on the Linux Kernel, an operating system kernel first released on septembre 17, 1991. Linux is typically packaged in a linux distrubution.
 
                 In 1991, while attending the University of Helsinki, Torvalds became curious about operating systems.[48] Frustrated by the licensing of MINIX, which at the time limited it to educational use only,[47] he began to work on his own operating system kernel, which eventually became the Linux kernel.
@@ -42,8 +42,8 @@
     <div class="bloc_projet" id="section2">
 
         <div class="textbox">
-            <h2>GIT</h2>
-            <p> 
+            <h2 class="h2-projet">GIT</h2>
+            <p class="p-projet"> 
                 Linux is a family of open-source Unix-like operating systems based on the Linux Kernel, an operating system kernel first released on septembre 17, 1991. Linux is typically packaged in a linux distrubution.
 
                 In 1991, while attending the University of Helsinki, Torvalds became curious about operating systems.[48] Frustrated by the licensing of MINIX, which at the time limited it to educational use only,[47] he began to work on his own operating system kernel, which eventually became the Linux kernel.
@@ -64,8 +64,8 @@
     <div class="bloc_projet" id="section3">
 
         <div class="textbox">
-            <h2>Subsurface</h2>
-            <p>
+            <h2 class="h2-projet">Subsurface</h2>
+            <p class="p-projet">
                 Linux is a family of open-source Unix-like operating systems based on the Linux Kernel, an operating system kernel first released on septembre 17, 1991. Linux is typically packaged in a linux distrubution.
 
                 In 1991, while attending the University of Helsinki, Torvalds became curious about operating systems.[48] Frustrated by the licensing of MINIX, which at the time limited it to educational use only,[47] he began to work on his own operating system kernel, which eventually became the Linux kernel.</p>
