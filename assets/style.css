@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* PAULINE - partie Header _navbar.php */
@@ -312,58 +313,58 @@ input[type=submit] {
 .input-error {
   position: relative;
 }
+.container {
+  margin-right: -40px;
+  display: inline-flex;
+}
 
 .error-div {
-  position: absolute;
-  font-size: small bold;
-  top: -10px;
-  right: 0;
-  color: black;
-  background:rgb(224, 75, 30);
-  border: 1px solid ;
-  height: 35px;
-  width: auto;
-  max-width: 50%;
-  padding: 0 5px;
+  color: rgb(224, 75, 30);
 }
-@media (max-width : 750px) {
-  .error-div {
-    font-size: x-small;
-  } 
-}
-.arrow-left {
-  position: absolute;
-  top:34px;
-  left: -1px;
-  height : 0;
-  width : 0;
-  border-top : 10px solid;
-  border-left : 10px solid transparent;
-}
-.arrow-right {
-  position: absolute;
-  top:34px;
-  left:9px;
-  height : 0;
-  width : 0;
-  border-bottom : 10px solid transparent;
-  border-left : 10px solid;
- }
 
-textarea.required {
-    margin-bottom: -5px;
-    
+#messageError, #emailError {
+  width: 100%;
+  margin-left: 10px;
+  overflow: hidden;
 }
 
 .required {
     border: 2px solid rgb(224, 75, 30) !important;
     
 }
+
 .required::placeholder {
-  color: rgb(224, 75, 30);
+    color: rgb(224, 75, 30);
 }
+
+.suggest-div {
+  color: rgb(255, 181, 22);
+  padding-left: 10px;
+}
+
+.suggested {
+  border: 2px solid rgb(255, 181, 22) !important;
+}
+
+.suggested::placeholder {
+  color: rgb(255, 181, 22);
+}
+
+.tooltiptext {
+  position:absolute;
+  top: 17px;
+  left: 0;
+  visibility: hidden;
+  font-size: small;
+  width: 300px;
+}
+
+.suggest-div:hover .tooltiptext {
+  visibility: visible;
+}
+
 /* Fade in des messages d'erreurs */
-.error-div {
+.error-div, .suggest-div {
     -webkit-animation-name: fadeInOpacity;
     animation-name: fadeInOpacity;
     -webkit-animation-iteration-count: 1;
@@ -410,7 +411,7 @@ textarea.required {
     position: absolute;
     width: 6px;
     height: 6px;
-    background: rgb(223, 221, 221);
+    background: rgb(172, 172, 172);
     border-radius: 50%;
     animation: lds-default 1.2s linear infinite;
   }
@@ -480,7 +481,7 @@ textarea.required {
       transform: scale(1);
     }
     50% {
-      transform: scale(1.5);
+      transform: scale(2);
     }
   }
 
