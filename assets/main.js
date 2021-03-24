@@ -27,7 +27,7 @@ window.addEventListener('resize', changeHeader);
         $('img.images').click(function() {
             window.location.href = firstboximage1 + 'https://git-scm.com/';
         })};
-    }); 
+    ); 
 </script>
 
 /* Fin Partie Wissam */
