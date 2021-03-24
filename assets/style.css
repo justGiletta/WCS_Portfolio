@@ -53,6 +53,7 @@ header {
 
 #links a {
     text-decoration: none;
+    font-style: normal;
     line-height: 1.5em;
     padding-right: 50px;
     color: black;
@@ -79,6 +80,7 @@ a:hover {
   -webkit-box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
   box-shadow: 0 2px 3px 0px rgba(0, 0, 0, 0.16);
   background: white;
+  border-radius: 0px 0px 0px 16px;
 }
 
 #pullDown:checked ~ #headerMenu {
