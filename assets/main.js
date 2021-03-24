@@ -1,22 +1,25 @@
 /* PAULINE - partie Header nav - burger menu - responsive */
 
-const burger = document.getElementById('burger');
-const links = document.getElementById('links');
-const quit = document.getElementById('quit');
-const headerHidden = document.getElementById('bloc_title_header');
 
-function burgerMenu(){
-    burger.style.padding = '16px 16px 200vw 200vw';
-    links.style.display = 'flex';
-    quit.style.display = 'inline';
-    headerHidden.style.visibility = 'hidden';
+
+function changeHeader() {
+    titleHeader = document.getElementById('title_header');
+    homeHeader = document.getElementById('home');
+    projetHeader = document.getElementById('projet');
+    contactHeader = document.getElementById('contact');
+    if("matchMedia" in window) {
+        if(window.matchMedia("(max-width: 700px)").matches) {
+            titleHeader.innerHTML = "L.T";
+            homeHeader.innerHTML = "home";
+            homeHeader.className = "material-icons";
+            projetHeader.innerHTML = "workspaces";
+            projetHeader.className = "material-icons";
+            contactHeader.innerHTML = "mail";
+            contact.className = "material-icons";
+        } 
+    }
 };
-  
-function quitFunction(){
-    burger.style.padding = '16px 16px 32px 32px';
-    links.style.display = 'none';
-    quit.style.display = 'none';
-    headerHidden.style.visibility = 'visible';
-};
+
+window.addEventListener('resize', changeHeader);
 
 /* Fin partie Header nav - burger menu - responsive */
