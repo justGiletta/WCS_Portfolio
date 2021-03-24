@@ -21,7 +21,7 @@
     <div class="bodyProjectsCard">
 
         <div class="projectCard">
-        <a href="projet.php">
+        <a href="projet.php/#section1">
         <div class="projectCard-title">
             <div class="title"><h2>Linux</h2></div>
             <div class="picto"><img src="/assets/images/PictoPinguNB.png" width=50px heigth=50px alt="Git Logo"/></img></div>
@@ -32,7 +32,7 @@
         </div>
 
         <div class="projectCard">
-        <a href="projet.php">
+        <a href="projet.php/#section1">
         <div class="projectCard-title">
             <div class="title"><h2>Git</h2></div>
             <div class="picto"><img src="/assets/images/PictoPinguNB.png" width=50px heigth=50px alt="Git Logo"/></img></div>
@@ -43,7 +43,7 @@
         </div>
         
         <div class="projectCard">
-        <a href="projet.php">
+        <a href="projet.php/#section3">
         <div class="projectCard-title">
             <div class="title"><h2>Subsurface</h2></div>
             <div class="picto"><img src="/assets/images/PictoPinguNB.png" width=50px heigth=50px alt="Git Logo"/></img></div>
