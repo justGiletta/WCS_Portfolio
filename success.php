@@ -1,6 +1,6 @@
 <?php
 
-header('refresh:5;url=index.php');//Renvoie sur l'index après 5 secondes
+header('refresh:5;url=index.php'); //Renvoie sur l'index après 5 secondes
 
 isset($_GET['firstName'])? $name = $_GET['firstName'] : $name = '';
 isset($_GET['famName'])? $famName = $_GET['famName'] : $famName = '';
