@@ -29,15 +29,3 @@ function changeHeader() {
 window.addEventListener('resize', changeHeader);
 
 /* PAULINE Fin partie Header nav - burger menu - responsive */
-
-/* Partie Wissam */
-
-<script>
-    $(document).ready(function() {
-        $('img.images').click(function() {
-            window.location.href = firstboximage1 + 'https://git-scm.com/';
-        })};
-    }); 
-</script>
-
-/* Fin Partie Wissam */

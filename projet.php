@@ -8,7 +8,7 @@
 
     <!-- Bloc Video -->
     <div class="bloc_projet" id='videoProjet'>
-        <h1 id="h1-projet"> My Projects </h1>
+        <h1 class="h1-projet"> My Projects </h1>
 
         <iframe class="videos" width="420" height="315" src="https://www.youtube.com/embed/S5S9LIT-hdc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </iframe>
