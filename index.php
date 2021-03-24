@@ -15,29 +15,43 @@
 </div>
 
 <div class = "projects">
+
     <div class="projectsCard-title"><h1>Projets</h1></div>
+
     <div class="bodyProjectsCard">
+
         <div class="projectCard">
+        <a href="projet.php">
         <div class="projectCard-title">
             <div class="title"><h2>Linux</h2></div>
             <div class="picto"><img src="/assets/images/PictoPinguNB.png" width=50px heigth=50px alt="Git Logo"/></img></div>
             </div>
-            <div class="project-img" id ="img1"><img src="assets/images/linuxPictoColor.png" width=800px heigth=600px alt="Linux Logo"/></img></div>
+            <div class="project-img" id ="img1">
+            <img src="assets/images/linuxPictoColor.png" width=800px heigth=600px alt="Linux Logo"/></img></div>
+        </a>
         </div>
+
         <div class="projectCard">
-            <div class="projectCard-title">
+        <a href="projet.php">
+        <div class="projectCard-title">
             <div class="title"><h2>Git</h2></div>
             <div class="picto"><img src="/assets/images/PictoPinguNB.png" width=50px heigth=50px alt="Git Logo"/></img></div>
             </div>
-            <div class="project-img" id ="img2"><img src="assets/images/1280px-Git-logo.svg.png" width=800px heigth=600px alt="Git Logo"/></img></div>
+            <div class="project-img" id ="img2">
+            <img src="assets/images/1280px-Git-logo.svg.png" width=800px heigth=600px alt="Git Logo"/></img></div>
+        </a>
         </div>
+        
         <div class="projectCard">
+        <a href="projet.php">
         <div class="projectCard-title">
             <div class="title"><h2>Subsurface</h2></div>
             <div class="picto"><img src="/assets/images/PictoPinguNB.png" width=50px heigth=50px alt="Git Logo"/></img></div>
             </div>
             <div class="project-img" id ="img3"><img src="assets/images/logoSubsurface.png" alt="Subsurface Logo"/></img></div>
+        </a>
         </div>
+
     </div>
 </div>
 
