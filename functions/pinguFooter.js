@@ -1,4 +1,5 @@
 if (localStorage.getItem('pinguMode') == 'true') {
+    document.title = "Pingu"
 
     document.getElementById('instagram-link').setAttribute("href", "https://www.instagram.com/daily.pingu/")
     document.getElementById('linkedin-link').setAttribute("href", "https://www.youtube.com/watch?v=dQw4w9WgXcQ")
