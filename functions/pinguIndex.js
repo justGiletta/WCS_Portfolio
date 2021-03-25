@@ -5,7 +5,7 @@ if (localStorage.getItem('pinguMode') == 'true') {
     document.getElementById('pres-text-two').innerHTML = "Suivez ses aventures avec mes amis Robby le phoque, Pingo, Pink, Pingi, ma famille et mes pires ennemis, la mouette et Bajoo, l’abominable homme des neiges."
     document.getElementById('pres-image').setAttribute("src", "assets/images/theBestBoy.png")
     document.getElementById('pres-image').setAttribute("alt", "The Best Boy you'll ever see")
-    
+
 
     //Projets
     document.getElementById('projects-title').innerHTML = "Mes aventures"
@@ -15,6 +15,13 @@ if (localStorage.getItem('pinguMode') == 'true') {
     document.getElementById('project-three-title').innerHTML = "Pingu le Chef"
 
     document.getElementById('project-one-image').setAttribute("src", "assets/images/pinguFamilly.png")
+    const pinguProjectImg1 = document.getElementById('project-one-image');
+    pinguProjectImg1.style.height = "68%";
+
     document.getElementById('project-two-image').setAttribute("src", "assets/images/grandpaPingu.png")
+    const pinguProjectImg2 = document.getElementById('img2');
+    pinguProjectImg2.style.marginTop = "10px";
+    pinguProjectImg2.style.height = "70%";
+
     document.getElementById('project-three-image').setAttribute("src", "assets/images/eatingPingu.png")
 }
