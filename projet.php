@@ -5,7 +5,7 @@
 </head>
 
 <body>
-
+<div class="content">
 <!-- Bloc Video -->
 <div class="bodyPresCard" id="bodyVideoCard">
 <div class="bloc_projet" id='videoProjet'>
@@ -83,7 +83,7 @@
     </div>
 </div>
 </div>
-
+</div>
 </body>
 <?php include 'layouts/_footer.php'?>
 </html>

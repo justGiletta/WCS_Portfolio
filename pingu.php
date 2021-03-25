@@ -4,11 +4,12 @@ isset($_SESSION['firstName']) ? ($_SESSION['firstName'] != "Pingu" ? header('Loc
 unset($_SESSION['firstName']);
 require 'layouts/_navbar.php';
 ?>
-
-<fieldset class="pingu-redirect">
-<p id="oups">Oh, on dirait que tu es perdu ...</p>
-<img id="pingu-image" class="pingu" src="assets/images/mode%20pingu/PictoPinguColor.png" alt="" srcset="">
-</fieldset>
+<div class="content">
+    <fieldset class="pingu-redirect">
+        <p id="oups">Oh, on dirait que tu es perdu ...</p>
+        <img id="pingu-image" class="pingu" src="assets/images/mode%20pingu/PictoPinguColor.png" alt="" srcset="">
+    </fieldset>
+</div>
 
 <script>
 oups = document.getElementById('oups')

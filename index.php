@@ -1,5 +1,5 @@
 <?php include 'layouts/_navbar.php'?>
-
+<div class="content">
 <div class="bodyPresCard">
     <div class="presentationCard">
         <div class="linusPres">
@@ -55,6 +55,7 @@
         </div>
 
     </div>
+</div>
 </div>
 <?php include 'layouts/_footer.php'?>
 <script src="functions/pinguIndex.js"></script>

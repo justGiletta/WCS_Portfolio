@@ -13,6 +13,12 @@ header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 75px;
+  position: fixed;
+  width: 100%;
+}
+
+.content {
+  padding-top: 80px;
 }
 
 #bloc_title_header {
