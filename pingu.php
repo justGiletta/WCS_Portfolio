@@ -14,7 +14,8 @@ oups = document.getElementById('oups')
 pingu = document.getElementById('pingu-image')
 setTimeout(() => {
     oups.innerHTML = "Quelque chose se passe sur le site ..."
-    pingu.setAttribute("src", "assets/images/LogoPingu.gif")
+    pingu.setAttribute("src", "assets/images/pingu-gif-hd.gif")
+    localStorage.setItem('pinguMode', true)
 }, 5000);
 setTimeout(() => {
     document.location.href = "/"

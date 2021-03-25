@@ -60,7 +60,16 @@
 
   </footer>
 
-<script src="../assets/main.js"></script>
+<script src="assets/main.js"></script>
+<script>
+function load_js() {
+  let head = document.getElementsByTagName('head')[0]
+  let script = document.createElement('script')
+  script.src = "functions/revert.js"
+  head.appendChild(script)
+}
+load_js()
+</script>
 </body>
 
 </html>
