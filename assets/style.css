@@ -20,6 +20,10 @@ header {
 
 .content {
   padding-top: 100px;
+  min-height: 100vh;
+  min-height: -webkit-calc(100vh - 275px);
+  min-height: -moz-calc(100vh - 275px);
+  min-height: calc(100vh - 275px);
 }
 
 #bloc_title_header {
@@ -401,8 +405,7 @@ fieldset p {
 fieldset {
   border: 0px solid rgb(223, 221, 221);
   width: 80%;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin: 0 auto;
   border-radius: 15px;
   background-color: rgb(223, 221, 221);
   overflow: hidden;
@@ -633,8 +636,6 @@ input[type="submit"] {
 /* ********* DEBUT DU FOOTER (DEV : COLIN) ******** */
 
 footer {
-  position: absolute;
-  top: 100;
   width: 100%;
   text-align: center;
   margin-top: 50px;
