@@ -5,7 +5,7 @@
     <div id='footer_section'>
     
       <div class='icon'>
-        <a href='https://www.linkedin.com/in/linustorvalds' target='_blank' class='orange-shadow'>
+        <a id="linkedin-link" href='https://www.linkedin.com/in/linustorvalds' target='_blank' class='orange-shadow'>
           <div>
           <span></span>
             <span></span>
@@ -17,7 +17,7 @@
                 </span>
           </div>
         </a>
-        <a href='https://github.com/torvalds' target='_blank' class='orange-shadow'>
+        <a id="github-link" href='https://github.com/torvalds' target='_blank' class='orange-shadow'>
           <div>
             <span></span>
             <span></span>
@@ -29,7 +29,7 @@
 
           </div>
         </a>
-        <a href='https://www.facebook.com/Linus-Torvalds-47144560930' class='orange-shadow' target='_blank'>
+        <a id="facebook-link"href='https://www.facebook.com/Linus-Torvalds-47144560930' class='orange-shadow' target='_blank'>
           <div>
             <span></span>
             <span></span>
@@ -40,7 +40,7 @@
                 </span>
           </div>
         </a>
-        <a href='https://www.instagram.com/best_computer_science_memes/?hl=fr' class='orange-shadow' target='_blank'>
+        <a id="instagram-link" href='https://www.instagram.com/best_computer_science_memes/?hl=fr' class='orange-shadow' target='_blank'>
           <div>
             <span></span>
             <span></span>
@@ -70,6 +70,7 @@ function load_js() {
 }
 load_js()
 </script>
+<script src="functions/pinguFooter.js"></script>
 </body>
 
 </html>

@@ -57,4 +57,4 @@
     </div>
 </div>
 <?php include 'layouts/_footer.php'?>
-<script src="functions/pinguIndex.js" defer></script>
+<script src="functions/pinguIndex.js"></script>

@@ -1,13 +1,13 @@
-let pinguMode = localStorage.getItem('pinguMode')
-console.log(typeof(pinguMode))
-if (pinguMode == 'true') {
-    console.log('in there')
+if (localStorage.getItem('pinguMode') == 'true') {
+    //Presentation
     document.getElementById('pres-title').innerHTML = "Pingu Noot"
     document.getElementById('pres-text-one').innerHTML = "Pingu est un pingouin malin qui vit en Antarctique avec sa famille et ses amis. Il a été créée par Otmar Gutmann en 1990."
     document.getElementById('pres-text-two').innerHTML = "Suivez ses aventures avec mes amis Robby le phoque, Pingo, Pink, Pingi, ma famille et mes pires ennemis, la mouette et Bajoo, l’abominable homme des neiges."
     document.getElementById('pres-image').setAttribute("src", "assets/images/theBestBoy.png")
     document.getElementById('pres-image').setAttribute("alt", "The Best Boy you'll ever see")
     
+
+    //Projets
     document.getElementById('projects-title').innerHTML = "Mes aventures"
 
     document.getElementById('project-one-title').innerHTML = "Bonjour Pingu !"
