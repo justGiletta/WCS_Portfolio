@@ -1,6 +1,6 @@
 <?php
 session_start();
-header('refresh:5;url=index.php'); //Renvoie sur l'index après 5 secondes
+header('refresh:3;url=index.php'); //Renvoie sur l'index après 5 secondes
 
 isset($_SESSION['firstName']) ? $name = $_SESSION['firstName'] : $name = '';
 isset($_SESSION['famName']) ? $famName = $_SESSION['famName'] : $famName = '';
