@@ -1,8 +1,10 @@
 <?php 
 session_start();
 include 'layouts/_navbar.php';
-?>
+isset($_SESSION['firstName']) ? ($_SESSION['firstName'] == "Pingu" ? header('Location: pingu.php'): false) : false;
 
+
+?>
 <fieldset>
     <h1>Contact</h1><br>
     <form action="functions/form.php" method="POST">

@@ -34,4 +34,7 @@ require 'layouts/_navbar.php'
 </fieldset>
 <?php
 require 'layouts/_footer.php';
+
+
 unset($_SESSION['message']);
+unset($_SESSION['email']);

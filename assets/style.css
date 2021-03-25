@@ -966,3 +966,15 @@ footer {
 }
 
 /* Fin Media Query Page Projet */
+
+/* ACTIVATION PINGU MODE  */
+.pingu-redirect {
+  text-align: center;
+}
+
+.pingu {
+  width: 300px;
+  height: 300px;
+}
+
+/* FIN ACTIVATION PINGU MODE */

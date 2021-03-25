@@ -4,6 +4,8 @@ $errors = $suggest = $data = [];
 
 $_SESSION['firstName'] = trim(htmlspecialchars($_POST['firstName']));
 
+$_SESSION['firstName'] == 'Pingu' ? header('Location: ../pingu.php') : false;
+
 $_SESSION['famName'] = trim(htmlspecialchars($_POST['famName']));
 
 !empty($_POST['email']) ? $_SESSION['email'] = $_POST['email'] : $errors['email'] = "emailError=Required";
@@ -20,9 +22,6 @@ if (!empty($errors)) {
     header('Location: ../contact.php?'.implode('&', $errors).'&'.implode('&', $suggest));
 };
 
-//Si tout les voyants sont verts on renvoie sur une page pour dire que le msg a été envoyé
-if (empty($errors)) {
-    header('Location: ../success.php?');
-}
+empty($errors) ? header('Location: ../success.php?') : false;
 
 ?>
