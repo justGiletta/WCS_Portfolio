@@ -312,6 +312,14 @@ a:hover {
   max-height: 800px;
   max-width: 900px;
   margin: 0px auto;
+  text-align: center;
+}
+
+#projects-title {
+  min-width: 50%;
+  padding: 10px;
+  background-color: rgb(223, 221, 221);
+  border-radius: 20px;
 }
 
 .bodyProjectsCard {

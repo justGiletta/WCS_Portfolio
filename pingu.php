@@ -6,7 +6,7 @@ require 'layouts/_navbar.php';
 ?>
 <div class="content">
     <fieldset class="pingu-redirect">
-        <p id="oups">Oh, on dirait que tu es perdu ...</p>
+        <p id="oups">Oops, it seems you got lost ...</p>
         <img id="pingu-image" class="pingu" src="assets/images/mode%20pingu/PictoPinguColor.png" alt="" srcset="">
     </fieldset>
 </div>
@@ -15,7 +15,7 @@ require 'layouts/_navbar.php';
 oups = document.getElementById('oups')
 pingu = document.getElementById('pingu-image')
 setTimeout(() => {
-    oups.innerHTML = "Quelque chose se passe sur le site ..."
+    oups.innerHTML = "Something's happening ..."
     pingu.setAttribute("src", "assets/images/pingu-gif-hd.gif")
     setTimeout(() => {
         localStorage.setItem('pinguMode', true)

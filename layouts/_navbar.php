@@ -37,8 +37,8 @@
             <input type="checkbox" id="pullDown"/>
                 <div id="headerMenu">
                     <ul id="links">
-                        <li><a href="../index.php" id="home"><i class="">Accueil</i></a></li>
-                        <li><a href="../projet.php" id="projet"><i class="">Projets</i></a></li>
+                        <li><a href="../index.php" id="home"><i class="">Home</i></a></li>
+                        <li><a href="../projet.php" id="projet"><i class="">Projects</i></a></li>
                         <li><a href="../contact.php" id="contact"><i class="">Contact</i></a></li>
                     </ul>
                 </div>

@@ -6,9 +6,9 @@ if (localStorage.getItem("pinguMode") == "true") {
 	//Presentation
 	document.getElementById("pres-title").innerHTML = "Pingu Noot";
 	document.getElementById("pres-text-one").innerHTML =
-		"Pingu est un pingouin malin qui vit en Antarctique avec sa famille et ses amis. Il a été créée par Otmar Gutmann en 1990.";
+		"Pingu is a clever penguin who lives in Antarctica with his family and friends. It was created by Otmar Gutmann in 1990. Which makes it plausible that he was able to create the Linux kernel in 1991 ...";
 	document.getElementById("pres-text-two").innerHTML =
-		"Suivez ses aventures avec mes amis Robby le phoque, Pingo, Pink, Pingi, ma famille et mes pires ennemis, la mouette et Bajoo, l’abominable homme des neiges.";
+	"Follow his adventures with his friends Robby the Seal, Pingo, Pink, Pingi, his family and his worst enemies, the Seagull and Bajoo, the abominable Snowman.";
 	document
 		.getElementById("pres-image")
 		.setAttribute("src", "assets/images/theBestBoy.png");
@@ -17,12 +17,12 @@ if (localStorage.getItem("pinguMode") == "true") {
 		.setAttribute("alt", "The Best Boy you'll ever see");
 
 	//Projets
-	document.getElementById("projects-title").innerHTML = "Mes aventures";
+	document.getElementById("projects-title").innerHTML = "Pingu's Adventures";
 
-	document.getElementById("project-one-title").innerHTML = "Bonjour Pingu !";
+	document.getElementById("project-one-title").innerHTML = "Hello Pingu !";
 	document.getElementById("project-two-title").innerHTML =
-		"Grand-Père est malade";
-	document.getElementById("project-three-title").innerHTML = "Pingu le Chef";
+		"Grandfather is sick";
+	document.getElementById("project-three-title").innerHTML = "Pingu the Cook";
 
 	document
 		.getElementById("project-one-image")

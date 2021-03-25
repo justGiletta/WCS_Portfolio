@@ -5,9 +5,9 @@
         <div class="linusPres">
             <h1 id="pres-title" class="linusPres-title">Linus Torvalds</h1>
             <div class="linusPres-text">
-                <p id="pres-text-one" class="p-projet"> Informaticien américano-finlandais, je suis plutôt connu pour avoir créé en 1991 le noyau Linux dont je continue de diriger le développement. À ce titre, je bénéficie depuis 2009 du titre de &laquo;&nbsp;Dictateur bienveillant à vie&nbsp;&raquo; de Linux.<br> J'ai également crée le logiciel de gestion de versions décentralisée Git ainsi que le logiciel d'enregistrement et de planification des plongées Subsurface.<br></J>
+                <p id="pres-text-one" class="p-projet"> I am a Finnish-American software engineer best known for the creation of the Linux kernel in 1991, of which I still lead the development to this day. As such, since 2009 I enjoy the title of &laquo;&nbsp;Benevolent Dictator for Life&nbsp;&raquo; of Linux.<br>  I also created the decentralized version management software Git as well as the Subsurface dive recording and planning software.<br></J>
 
-                <p id="pres-text-two" class="p-projet">Mais, je suis avant tout un grand amateur de pingouins&nbsp;!</p>
+                <p id="pres-text-two" class="p-projet">Above all, I am a big fan of penguins!</p>
             </div>
         </div>
         <div class="linusPres-img"><img id="pres-image" src="assets/images/linus2_wideweb__470x300,0.jpeg" width=800px heigth=600px alt="Young Linus Torvalds"/></img></div>
@@ -16,7 +16,7 @@
 
 <div class = "projects">
 
-    <div class="projectsCard-title"><h1 id="projects-title">Projets</h1></div>
+    <div class="projectsCard-title"><h1 id="projects-title">Projects</h1></div>
 
     <div class="bodyProjectsCard">
 

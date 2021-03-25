@@ -60,7 +60,7 @@
 
   </footer>
 
-<script src="assets/main.js"></script>
+<script src="../assets/main.js"></script>
 <script>
 function load_js() {
   let head = document.getElementsByTagName('head')[0]

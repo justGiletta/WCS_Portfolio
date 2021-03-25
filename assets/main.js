@@ -16,9 +16,9 @@ function changeHeader() {
       contact.className = "material-icons";
     } else {
       titleHeader.innerHTML = "Linus Torvald";
-      homeHeader.innerHTML = "Accueil";
+      homeHeader.innerHTML = "Home";
       homeHeader.className = "";
-      projetHeader.innerHTML = "Projets";
+      projetHeader.innerHTML = "Projects";
       projetHeader.className = "";
       contactHeader.innerHTML = "Contact";
       contact.className = "";
