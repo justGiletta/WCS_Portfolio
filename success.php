@@ -9,6 +9,7 @@ $email = $_SESSION['email'];
 require 'layouts/_navbar.php'
 
 ?>
+<div class="content">
 <fieldset>
     <div class="successfull">
         <?php 
@@ -32,6 +33,7 @@ require 'layouts/_navbar.php'
         </div>
     </div>
 </fieldset>
+</div>
 <?php
 require 'layouts/_footer.php';
 
