@@ -10,7 +10,7 @@
 <div class="bodyPresCard" id="bodyVideoCard">
 <div class="bloc_projet" id='videoProjet'>
     <h1 class="h1-projet"> My Projects </h1>
-<div class=""bloc_video">
+<div class="bloc_video">
     <iframe class="videos" width="420" height="315" src="https://www.youtube.com/embed/S5S9LIT-hdc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </iframe>
 </div>
@@ -79,7 +79,7 @@
     <div class="imagebox">
         <a href="https://subsurface-divelog.org/" target=_blank>
             <img class="images" id="imageScuba" src="https://subsurface-divelog.org/wp-content/uploads/2015/10/subsurface-icon1.png" Width=800px heigth=600px alt="Subsurface_img">
-
+        </a>
     </div>
 </div>
 </div>
