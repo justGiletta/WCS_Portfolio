@@ -79,7 +79,7 @@
     <div class="imagebox">
         <a href="https://subsurface-divelog.org/" target=_blank>
             <img class="images" id="imageScuba" src="https://subsurface-divelog.org/wp-content/uploads/2015/10/subsurface-icon1.png" Width=800px heigth=600px alt="Subsurface_img">
-
+        </a>
     </div>
 </div>
 </div>
