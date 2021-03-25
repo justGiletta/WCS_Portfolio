@@ -1,5 +1,6 @@
 <?php
 session_start();
+isset($_SESSION['firstName']) ? ($_SESSION['firstName'] != "Pingu" ? header('Location: index.php') : false) : false;
 unset($_SESSION['firstName']);
 require 'layouts/_navbar.php';
 ?>
@@ -15,11 +16,13 @@ pingu = document.getElementById('pingu-image')
 setTimeout(() => {
     oups.innerHTML = "Quelque chose se passe sur le site ..."
     pingu.setAttribute("src", "assets/images/pingu-gif-hd.gif")
-    localStorage.setItem('pinguMode', true)
+    setTimeout(() => {
+        localStorage.setItem('pinguMode', true)
+        document.location.href = "/"
+    }, 5000);
+        
 }, 5000);
-setTimeout(() => {
-    document.location.href = "/"
-}, 10000);
+
 </script>
 
 <?php
