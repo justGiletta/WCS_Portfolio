@@ -20,9 +20,9 @@ setTimeout(() => {
     setTimeout(() => {
         localStorage.setItem('pinguMode', true)
         document.location.href = "/"
-    }, 5000);
+    }, 2500);
         
-}, 5000);
+}, 2500);
 
 </script>
 
