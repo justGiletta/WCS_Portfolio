@@ -15,7 +15,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Linus Torvald</title>
+        <title>Linus Torvalds</title>
         <link rel="stylesheet" href="../assets/style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400display=swap" rel="stylesheet">     
@@ -29,7 +29,7 @@
                     <a href="../index.php"><img src="../assets/images/pinguLogo.png" alt="logo_pingu"/></a>
                 </div>
                 <div class="title_header">
-                    <h1 id="title_header">Linus Torvald</h1>
+                    <h1 id="title_header">Linus Torvalds</h1>
                     <h2>Portfolio</h2>
                 </div>
             </div>

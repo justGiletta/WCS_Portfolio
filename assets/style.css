@@ -185,7 +185,7 @@ i {
   max-width: 40%;
   border-radius: 20px;
   background-color: grey;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .images {
@@ -277,7 +277,7 @@ p {
 }
 
 .linusPres {
-  text-align: justify;
+  /* text-align: justify; */
   margin: 0;
   padding: 10px;
   max-width: 40%;
