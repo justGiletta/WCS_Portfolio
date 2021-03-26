@@ -15,7 +15,7 @@ function changeHeader() {
       contactHeader.innerHTML = "mail";
       contact.className = "material-icons";
     } else {
-      titleHeader.innerHTML = "Linus Torvald";
+      titleHeader.innerHTML = "Linus Torvalds";
       homeHeader.innerHTML = "Home";
       homeHeader.className = "";
       projetHeader.innerHTML = "Projects";
